@@ -1,0 +1,39 @@
+/*
+Theme Name: Dharma Library Theme
+Description: A modern, clean, and comprehensive theme for displaying spiritual and scholarly content.
+Version: 1.0
+Author: Your Name
+*/
+
+/* --- [Paste the CSS from your "sanskrit book" request here. It will be the base for single-text.php] --- */
+/* Then add the following styles for the rest of the site */
+body { font-family: 'Georgia', serif; line-height: 1.7; color: #333; background: #fdfdfa; }
+.container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+a { color: #8a3b00; text-decoration: none; }
+h1, h2, h3 { font-family: 'Helvetica Neue', sans-serif; font-weight: 300; line-height: 1.2; }
+
+/* Header */
+.site-header { padding: 20px 0; border-bottom: 1px solid #eee; }
+.site-branding { float: left; }
+.site-title a { font-size: 2em; font-weight: bold; color: #333; }
+.main-navigation { float: right; }
+.main-navigation ul { list-style: none; margin: 10px 0 0; }
+.main-navigation ul li { display: inline-block; margin-left: 20px; }
+
+/* Grid Layouts (for archives) */
+.post-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 30px; }
+.grid-item { background: #fff; border: 1px solid #eee; text-align: center; }
+.grid-item a { display: block; }
+.grid-item img { max-width: 100%; height: 200px; object-fit: cover; }
+.grid-item-content { padding: 15px; }
+
+/* Homepage Sections */
+.home-section { margin-bottom: 50px; }
+.section-title { text-align: center; font-size: 2.5em; margin-bottom: 30px; }
+
+/* Single Scholar Page */
+.scholar-header { display: flex; gap: 30px; align-items: center; }
+.scholar-photo { max-width: 200px; height: 200px; border-radius: 50%; object-fit: cover; }
+
+/* Footer */
+.site-footer { background: #333; color: #aaa; padding: 40px 0; text-align: center; margin-top: 40px; }
